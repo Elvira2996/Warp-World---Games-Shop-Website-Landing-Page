@@ -85,6 +85,17 @@ section{
 	text-align: center;
 	margin: 0 auto;
 }
+a{
+	color: #ffff;
+	text-decoration: none;
+	
+}
+.a:hover{
+	color: #44F2D2;
+	text-decoration: underline;
+	transition: 0.3s ease;
+	
+}
 .hover {
 	transition: 0.3s;
 }
@@ -104,7 +115,7 @@ section{
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	padding: 14px 16px;
+	padding: 4px 16px;
 	
 }
 .btn_bd:hover{
@@ -116,11 +127,22 @@ section{
 	color: #000;
 }
 
-
-
-
 .flex{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+}
+.menu{
+	background-color: #22006B;
+	margin-top: 50px;
+}
+.menu_in{
+	align-items: center;
+}
+
+.menu_items{
+	margin-left: 40px;
+}
+.btn_bl{
+	margin-left: 20px;
 }
