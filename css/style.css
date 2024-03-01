@@ -184,3 +184,30 @@ a {
 	text-align: left;
 
 }
+
+.gallery_img {
+	position: relative;
+}
+
+.gallery_img img {
+	width: 100%;
+	height: auto;
+
+}
+
+.text-overlay {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.gallery_txt {
+	width: 1062px;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 27px;
+	letter-spacing: 0em;
+	text-align: left;
+	margin: 10px 0 20px;
+
+}
