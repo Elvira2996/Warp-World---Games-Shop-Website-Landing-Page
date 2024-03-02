@@ -263,7 +263,8 @@ a:hover {
 	text-align: left;
 
 }
-.price_list-image{
+
+.price_list-image {
 	margin: 10px 10px;
 }
 
@@ -312,13 +313,58 @@ button.price_list-btn {
 	text-align: left;
 
 }
-.sm_bl{
+
+.sm_bl {
 	color: #44F2D2;
 }
-.btn btn_bd{
+
+.btn btn_bd {
 	align-items: center;
 }
-.price_btn{
+
+.price_btn {
 	width: 159px;
 	margin: 0 auto;
+}
+
+.release_btn {
+	margin-left: 20px;
+}
+
+.release_txt {
+	color: yellow;
+}
+
+.release_games-in {
+	background-color: #2F4F4F;
+	width: 302px;
+	height: 130px;
+}
+
+.price_list-btn.block {
+	width: 78px;
+	height: 37px;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 27px;
+	letter-spacing: 0em;
+	padding: 5px 8px;
+}
+.release_games_desc{
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+}
+.release_games_txt{
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+}
+.release_block,
+.release_games_desc{
+	margin: 10px;
 }
