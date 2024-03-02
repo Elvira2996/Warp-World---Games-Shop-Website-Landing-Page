@@ -207,35 +207,118 @@ a:hover {
 	margin: 10px 0 20px;
 
 }
-.price_list-menu{
+
+.price_list-menu {
 	background-color: #22006B;
-	
-	
+
+
 }
-.search_form{
+
+.search_form {
 	border: 1px solid;
 	background-color: #B9B9B9;
-	display:inline-flex;
+	display: inline-flex;
 	padding: 0 20px;
 	justify-content: space-between;
 	align-items: center;
 	overflow: hidden;
-	
-	
+
+
 }
-.search_form-txt{
+
+.search_form-txt {
 	border: none;
 	outline: none;
 	font-size: 18px;
 	color: #fff;
 	padding-right: 10px;
 }
-.search_form-btn{
+
+.search_form-btn {
 	border: none;
 }
-.search_form-image{
+
+.search_form-image {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
+}
+
+.price_list-list {
+	background-color: #2F4F4F;
+	margin-bottom: 15px;
+}
+
+.price_list-desc {
+	margin-top: 20px;
+}
+
+.sec_titl {
+
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 48px;
+	letter-spacing: 0em;
+	text-align: left;
+
+}
+.price_list-image{
+	margin: 10px 10px;
+}
+
+.price_list_txt {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.list_icon-wd {
+	width: 24px;
+	height: 24px;
+	background: url(/img/icons/window.svg);
+	display: inline-block;
+}
+
+.list_icon-app {
+	width: 18px;
+	height: 24px;
+	background: url(/img/icons/apple.svg);
+	display: inline-block;
+}
+
+.list_icon {
+	width: 28px;
+	height: 20px;
+	background: url(/img/icons/playstation.svg);
+	display: inline-block;
+}
+
+.price-btn {
+	padding: 60px 10px;
+}
+
+button.price_list-btn {
+	border: 1px solid yellow;
+	background-color: yellow;
+	padding: 10px 15px;
+
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 48px;
+	letter-spacing: 0em;
+	text-align: left;
+
+}
+.sm_bl{
+	color: #44F2D2;
+}
+.btn btn_bd{
+	align-items: center;
+}
+.price_btn{
+	width: 159px;
+	margin: 0 auto;
 }
