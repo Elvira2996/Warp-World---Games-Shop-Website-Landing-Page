@@ -429,3 +429,50 @@ button.price_list-btn {
 	letter-spacing: 0em;
 	text-align: left;
 }
+
+.universe_txt {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 36px;
+	letter-spacing: 0em;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.btn_bd.universe {
+	width: 289px;
+	height: 59px;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	letter-spacing: 0em;
+	text-align: left;
+	margin-bottom: 30px;
+
+}
+.btn_bd.universe::before {
+	content: "";
+}
+
+.btn_bd.universe::after {
+	content: url(/img/icons/window.bl.svg);
+	padding-left: 10px;
+	
+}
+.block_sm{
+	width: 288px;
+	align-items: center;
+}
+.universe_txt-sm{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.universe{
+	background: url(/img/universe.image.png);
+}
+
+
+
