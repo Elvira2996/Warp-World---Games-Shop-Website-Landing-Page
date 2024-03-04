@@ -494,6 +494,13 @@ button.price_list-btn {
 	text-align: center;
 }
 
+.ic .icon:hover,
+a.icon {
+	color: #000;
+	text-decoration: none;
+}
+
+
 .footer_desc {
 	width: 302px;
 	font-size: 12px;
@@ -525,21 +532,22 @@ button.price_list-btn {
 	text-align: left;
 
 }
-.footer_info{
+
+.footer_info {
 	text-align: center;
 	font-size: 12px;
 	margin-top: 100px;
-	
+
 }
 
 .footer_info::before {
 	content: url(/img/icons/footer.ic.svg);
 	align-items: center;
-	
+
 }
 
 .footer_info::after {
 	content: "";
-	
+
 
 }
