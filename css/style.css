@@ -279,21 +279,21 @@ a:hover {
 .list_icon-wd {
 	width: 24px;
 	height: 24px;
-	background: url(/img/icons/window.svg);
+	background: url(./img/icons/window.svg);
 	display: inline-block;
 }
 
 .list_icon-app {
 	width: 18px;
 	height: 24px;
-	background: url(/img/icons/apple.svg);
+	background: url(./img/icons/apple.svg);
 	display: inline-block;
 }
 
 .list_icon {
 	width: 28px;
 	height: 20px;
-	background: url(/img/icons/playstation.svg);
+	background: url(./img/icons/playstation.svg);
 	display: inline-block;
 }
 
@@ -456,7 +456,7 @@ button.price_list-btn {
 }
 
 .btn_bd.universe::after {
-	content: url(/img/icons/window.bl.svg);
+	content: url(./img/icons/window.bl.svg);
 	padding-left: 10px;
 
 }
@@ -541,7 +541,7 @@ a.icon {
 }
 
 .footer_info::before {
-	content: url(/img/icons/footer.ic.svg);
+	content: url(./img/icons/footer.ic.svg);
 	align-items: center;
 
 }
