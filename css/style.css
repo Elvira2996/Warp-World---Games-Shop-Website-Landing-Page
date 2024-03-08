@@ -158,6 +158,9 @@ a:hover {
 	background-color: #22006B;
 	margin-top: 50px;
 }
+.menu_list{
+	align-items: center;
+}
 
 .menu_in {
 	align-items: center;
@@ -210,6 +213,9 @@ a:hover {
 
 .price_list-menu {
 	background-color: #22006B;
+	align-items: start;
+	height: 75px;
+	align-content: center;
 
 
 }
@@ -253,6 +259,9 @@ a:hover {
 .price_list-desc {
 	margin-top: 20px;
 }
+.menu_name{
+	padding-right: 440px;
+}
 
 .sec_titl {
 
@@ -269,6 +278,7 @@ a:hover {
 }
 
 .price_list_txt {
+	width: 873px;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 24px;
@@ -279,21 +289,21 @@ a:hover {
 .list_icon-wd {
 	width: 24px;
 	height: 24px;
-	background: url(./img/icons/window.svg);
+	background: url(/img/icons/window.svg);
 	display: inline-block;
 }
 
 .list_icon-app {
 	width: 18px;
 	height: 24px;
-	background: url(./img/icons/apple.svg);
+	background: url(/img/icons/apple.svg);
 	display: inline-block;
 }
 
 .list_icon {
 	width: 28px;
 	height: 20px;
-	background: url(./img/icons/playstation.svg);
+	background: url(/img/icons/playstation.svg);
 	display: inline-block;
 }
 
@@ -380,6 +390,7 @@ button.price_list-btn {
 
 .exclusive_btns {
 	width: 198px;
+	margin-left: 10px;
 
 }
 
@@ -456,7 +467,7 @@ button.price_list-btn {
 }
 
 .btn_bd.universe::after {
-	content: url(./img/icons/window.bl.svg);
+	content: url(/img/icons/window.bl.svg);
 	padding-left: 10px;
 
 }
@@ -550,4 +561,15 @@ a.icon {
 	content: "";
 
 
+}
+
+
+.games_in{
+	width: calc((100% - 20px) / 2);
+}
+.exclusive_games_right {
+	width: calc(100% - 431px);
+}
+.games_in_left{
+	width: 411px;
 }
